@@ -1,0 +1,24 @@
+{
+  "name": "vue-instance-manager",
+  "version": "1.0.0",
+  "description": "Vue Instance Manager (VIM)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosalexandre1985/vue-instance-manager.git"
+  },
+  "keywords": [
+    "vue",
+    "instance",
+    "manager"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosalexandre1985/vue-instance-manager/issues"
+  },
+  "homepage": "https://github.com/carlosalexandre1985/vue-instance-manager#readme"
+}
