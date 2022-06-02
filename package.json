@@ -1,6 +1,6 @@
 {
   "name": "vue-instance-manager",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Vue Instance Manager (VIM)",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,9 @@
   },
   "keywords": [
     "vue",
+    "js",
+    "javascript",
+    "vanilla",
     "instance",
     "manager"
   ],
