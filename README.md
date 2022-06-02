@@ -1,0 +1,3 @@
+# Vue Instance Manager (VIM)
+
+This class ...
