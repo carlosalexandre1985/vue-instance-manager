@@ -7,7 +7,7 @@ export default class VueInstanceManager {
     return new ImportedClass(dependencies)
   }
 
-  static open (instance, selector = 'body') {
+  static open (instance, selector = 'body', closeEvent = 'close') {
     const container = this.getContainerBySelector(selector)
 
     this.insertContainerIntoInstance(instance, container)
@@ -15,6 +15,10 @@ export default class VueInstanceManager {
     const target = document.createElement('DIV')
 
     this.add(instance, target)
+
+    instance.$on(closeEvent, () => {
+      this.close(instance)
+    })
   }
 
   static close (instance) {
