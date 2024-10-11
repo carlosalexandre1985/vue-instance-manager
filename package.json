@@ -1,6 +1,6 @@
 {
   "name": "vue-instance-manager",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Vue Instance Manager (VIM)",
   "main": "dist",
   "scripts": {
